@@ -69,16 +69,15 @@
 
 #logobg {
     display: flex;
-    justify-content: right;
-    flex-direction: row-reverse;
-    gap: 96px;
+    justify-content: center;
 }
 
 #logowidth {
-    margin-top: 42px;
-    max-width: 570px;
-    width: 100%;
     display: flex;
+    margin-top: 42px;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: flex-end;
     gap: 30px;
 }
 
