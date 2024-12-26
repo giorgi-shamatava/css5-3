@@ -11,6 +11,8 @@
 #leftbg {
     max-width: 104px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #mainbg {
@@ -75,7 +77,7 @@
 #logowidth {
     display: flex;
     margin-top: 42px;
-    max-width: 1300px;
+    max-width: 1154px;
     width: 100%;
     justify-content: flex-end;
     gap: 30px;
@@ -86,8 +88,43 @@
     padding: 8px 24px 8px 12px;
     border-radius: 16px;
     background: #E7EEFF;
-    width: 170px;
     gap: 12px;
     align-items: center;
 }
 
+.hoteltxt {
+    padding: 8px 12px;
+    align-items: flex-start;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+    max-width: 354px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexgap {
+    display: flex;
+    gap: 42px;
+    max-width: 1144px;
+    width: 100%;
+}
+
+.width {
+    width: 329px;
+    margin-top: 4px;
+    color: #606060;
+    font-size: 14px;
+}
+
+.hotelswidth {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.fix {
+    width: 100%;
+}
